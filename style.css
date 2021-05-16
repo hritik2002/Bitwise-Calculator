@@ -19,6 +19,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 2px;
 }
 .question{
     display: block;
@@ -39,6 +40,13 @@ body{
     margin: 5px auto;
     width: 95%;
     border: 3px solid rgb(255, 255, 255);
+}
+.selectOperator{
+    color: #fff;
+    text-align: left;
+    margin-left: 0;
+    width: 90%;
+    font-size: 17px;
 }
 .submit{
     width: 90%;
@@ -129,8 +137,13 @@ body{
 }
 
 @media (max-width:400px){
+    body{
+        background: rgb(21, 42, 110);
+    }
     .container{
         width: 80%;
         max-width: 600px;
+        background: rgba(28, 120, 182, 0.76);
+    
     }
 }
