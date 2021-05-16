@@ -98,7 +98,7 @@ body{
 
 @media (max-width:600px){
     .container{
-        height: 380px;
+        height: 420px;
     }
     .submit{
         flex-direction: column;
@@ -138,12 +138,17 @@ body{
 
 @media (max-width:400px){
     body{
-        background: rgb(21, 42, 110);
+        background: #fff;
     }
     .container{
         width: 80%;
         max-width: 600px;
-        background: rgba(28, 120, 182, 0.76);
+        background: rgb(22, 110, 126);
+        height: max-content;
     
+    }
+    .answer{
+        background: rgb(22, 110, 126);
+        border: none;
     }
 }
