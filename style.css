@@ -9,12 +9,18 @@ body{
     align-items: center;
     background: rgba(0, 0, 0, 0.055);
 }
+h2{
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
 .container{
     background: rgba(53, 51, 51, 0.986);
     padding: 20px;
+    padding-top: 5px;
     width: 40%;
     max-width: 400px;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,10 +104,12 @@ body{
 
 @media (max-width:600px){
     .container{
-        height: 420px;
+        height: 400px;
+        width: 60%;
+        max-width: 500px;
     }
     .submit{
-        flex-direction: column;
+        flex-direction: row;
     }
     .submit>button{
         margin-top: 5px;
@@ -145,7 +153,11 @@ body{
         max-width: 600px;
         background: rgb(22, 110, 126);
         height: max-content;
+        padding-bottom: 10px;
     
+    }
+    .submit{
+        flex-direction: column;
     }
     .answer{
         background: rgb(22, 110, 126);
