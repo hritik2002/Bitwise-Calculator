@@ -147,12 +147,14 @@ h2{
 @media (max-width:400px){
     body{
         background: #fff;
+        align-items: flex-start;
+        height: 97.5vh;
     }
     .container{
-        width: 80%;
+        width: 99%;
         max-width: 600px;
         background: rgb(22, 110, 126);
-        height: max-content;
+        height: 100%;
         padding-bottom: 10px;
     
     }
